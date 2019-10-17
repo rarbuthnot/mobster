@@ -4,7 +4,8 @@
     "target": "es5",
     "lib": ["dom", "es6"],
     "strict": true,
-    "sourceMap": false
+    "sourceMap": false,
+    "strictPropertyInitialization": false
   },
   "exclude": ["node_modules", "typings", "dist", "webpack.config.ts"]
 }
